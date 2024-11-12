@@ -94,3 +94,19 @@ a {
   padding: 20px;
   margin-top: 148px;
 }
+
+@media only screen and (max-width: 800px) {
+  .panel {
+    width: 100%;
+    flex-direction: column;
+  }
+  
+  .panelLeft,
+  .panelRight {
+    width: 100%;
+  }
+
+  .eventScheduleTitle {
+    text-align: center;
+  }
+}
